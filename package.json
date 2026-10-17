@@ -1,0 +1,46 @@
+{
+  "name": "velocityquiz",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts --dev",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=esm --outfile=server.js --packages=external",
+    "start": "node server.js",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test": "node --test tests/multiplayer.test.mjs"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "ws": "^8.22.0",
+    "xlsx": "^0.18.5",
+    "compression": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/ws": "^8.18.2",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0",
+    "@types/compression": "^1.8.1"
+  },
+  "engines": {
+    "node": ">=22.12.0 <25"
+  }
+}

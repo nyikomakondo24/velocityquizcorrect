@@ -1,0 +1,6 @@
+{
+  "name": "VelocityQuiz - Real-Time Timed Multiplayer Quiz Platform",
+  "description": "Host high-energy timed quizzes for up to 60 players with speed-scaled scoring, live podiums, customizable quizzes, and host controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

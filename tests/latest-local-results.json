@@ -1,0 +1,19 @@
+{
+  "environment": "Local production Node server; synthetic WebSocket clients, not 60 mobile browsers",
+  "players": 60,
+  "entryJavaScriptBytes": 255645,
+  "entryJavaScriptGzipBytes": 79682,
+  "burstJoinTotalMs": 86,
+  "joinP95Ms": 76,
+  "playerQuestionPacketBytes": 16349,
+  "originalEquivalentFullRoomPacketBytes": 175807,
+  "answerAckP95Ms": 7,
+  "playerBytesForAnswerBurst": 1397190,
+  "hostUpdatesForAnswerBurst": 1,
+  "baselineEntryJavaScriptBytes": 790590,
+  "baselineEntryJavaScriptGzipBytes": 245868,
+  "entryReductionPercent": 67.7,
+  "originalHeroBytes": 1055943,
+  "optimizedHeroBytes": 163188,
+  "checkedAt": "2026-10-17"
+}
